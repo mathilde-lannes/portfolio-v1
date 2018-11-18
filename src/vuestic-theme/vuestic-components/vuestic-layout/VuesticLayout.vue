@@ -44,8 +44,6 @@ export default {
   .layout {
     &-fixed {
       .content-wrap {
-        padding-right: $layout-padding-right;
-        padding-top: $sidebar-top;
 
         @include media-breakpoint-down(md) {
           padding: $content-mobile-wrap-fixed-layout;
@@ -66,8 +64,6 @@ export default {
 
     .content-wrap {
       transition: margin-left 0.3s ease;
-      padding: $layout-padding $layout-padding-right $content-wrap-pb 0;
-      padding-left: $content-wrap-ml;
 
       .pre-loader {
         position: absolute;

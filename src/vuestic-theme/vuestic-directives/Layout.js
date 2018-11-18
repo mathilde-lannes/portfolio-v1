@@ -1,8 +1,6 @@
 export default {
 
   bind: function (el, binding) {
-    let navbar = el.querySelector('.vuestic-navbar')
-
     const mobileWidth = 415
 
     el.resizeWindow = (evt) => {
@@ -20,8 +18,6 @@ export default {
         }
       }, 0)
     }
-
-    navbar.addEventListener('click', el.resizeWindow)
   },
   unbind: (el) => {
     el.removeEventListener('click', el.resizeWindow)

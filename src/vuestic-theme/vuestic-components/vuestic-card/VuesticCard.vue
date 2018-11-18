@@ -109,14 +109,14 @@ $card-font-size: 1.375 rem;
     .vuestic-card__title {
       position: absolute;
       bottom: 0px;
-      color: $white;
+      color: $vue-darkest-blue;
       padding: 1rem;
       margin-bottom: 0;
     }
     &__overlay {
       position: absolute;
       pointer-events: none;
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.0);
       width: 100%;
       height: 100%;
       top: 0;
