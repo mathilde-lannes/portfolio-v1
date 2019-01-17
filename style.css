@@ -23,7 +23,12 @@ h1 {
     font-family: 'the_foreigner' !important;
 }
 
-#header > span {
+h2 {
+    font-family: 'the_foreigner' !important;
+    font-size: 50px !important;
+}
+
+#header > div {
     font-size: 15px;
     font-family: 'Muli';
     color: rgb(226, 226, 226);
@@ -53,6 +58,10 @@ h1 {
 #education {
     color: white;
     background-color: #005361;
+}
+
+#skills>h2, #education>h2 {
+    text-align: right;
 }
 
 .section {
