@@ -17,6 +17,10 @@ footer {
     text-align: center;
 }
 
+a {
+    color: #F79A3E !important;
+}
+
 h1 {
     font-size: 120px !important;
     margin-top: 0 !important;
@@ -27,6 +31,10 @@ h1 {
 h2 {
     font-family: 'the_foreigner' !important;
     font-size: 50px !important;
+}
+
+#github {
+    width: 50px;
 }
 
 #kopi-usage, #talh-illustration {
@@ -75,6 +83,11 @@ h2 {
 #education>h2 {
     margin-top: 5vh;
     margin-bottom: 4vh;
+}
+
+#contact {
+    padding-bottom: 3% !important;
+    text-align: center;
 }
 
 .white {
