@@ -22,7 +22,7 @@ a {
 }
 
 h1 {
-    font-size: 120px !important;
+    font-size: 10vw !important;
     margin-top: 0 !important;
     margin-bottom: 50px !important;
     font-family: 'the_foreigner' !important;
@@ -52,16 +52,15 @@ h2 {
 }
 
 #header > div {
-    font-size: 20px;
+    font-size: 2vw !important;
     font-family: 'Muli';
     color: rgb(226, 226, 226);
-    padding-left: 10vw;
 }
 
 #header {
     color: white;
     background-color: #0A4A54;
-    background : url("assets/header.png") no-repeat center fixed;
+    background : url("assets/header.png") no-repeat center;
     background-size: cover; 
     padding-top: 47vh;
     padding-bottom: 145px;
@@ -109,6 +108,33 @@ h2 {
     padding-bottom: 5%;
     padding-left: 25vw;
     padding-right: 25vw;
+}
+
+@media (max-width: 640px) {
+
+    h1 {
+        font-size: 50px !important;
+    }
+
+    h2 {
+        font-size: 35px !important;
+    }
+
+    #header > div {
+        font-size: 15px !important;
+    }
+
+    .section {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
 }
 
 .btn {
@@ -166,7 +192,7 @@ h2 {
 .arrow{
     position: absolute;
     top: 90vh;
-    left: calc((100vw - 10vw - 20px) / 2);
+    left: calc((100vw - 20px) / 2);
     transform: translate(-50%,-50%);
 }
 .arrow span{
