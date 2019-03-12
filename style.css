@@ -172,7 +172,7 @@ h2 {
     width: 90%;
 }
   
-  .browser-mockup:before {
+.browser-mockup:before {
     display: block;
     position: absolute;
     content: '';
